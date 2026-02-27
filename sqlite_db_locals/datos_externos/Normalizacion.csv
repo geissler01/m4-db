@@ -1,0 +1,51 @@
+﻿estudiante_nombre;estudiante_doc;correo_estudiante;universidad;ciudad_universidad;curso;duracion_curso;profesor;especialidad_profesor;telefono_profesor;fecha_inscripcion;nota_final
+María López;1003;maria@mail.com;UniTech;Medellín;Redes;50;Mónica Silva;Bases de Datos;3004445566;2026-01-01;3,2
+Carlos Pérez;1004;carlos@mail.com;UniTech;Medellín;Redes;50;Carlos Ruiz;Ingeniería de Software;3001112233;2026-01-31;4,1
+Daniel Castro;1010;daniel@mail.com;UniDigital;Bogotá;Sistemas Operativos;55;Mónica Silva;Bases de Datos;3004445566;2026-02-01;3,3
+Sofía Ramírez;1005;sofia@mail.com;UniDigital;Bogotá;Sistemas Operativos;55;Mónica Silva;Bases de Datos;3004445566;2026-02-27;4,5
+Sofía Ramírez;1005;sofia@mail.com;UniTech;Medellín;Programación I;60;Mónica Silva;Bases de Datos;3004445566;2026-02-02;3,5
+María López;1003;maria@mail.com;Instituto Central;Cali;Programación I;60;Laura Díaz;Ciencias de la Computación;3002223344;2026-02-10;3,5
+Luis Gómez;1002;luis@mail.com;Instituto Central;Cali;Sistemas Operativos;55;Mónica Silva;Bases de Datos;3004445566;2026-02-12;3,6
+Sofía Ramírez;1005;sofia@mail.com;Instituto Central;Cali;Programación I;60;Carlos Ruiz;Ingeniería de Software;3001112233;2026-02-04;3
+Andrés Molina;1008;andres@mail.com;UniTech;Medellín;Estructuras de Datos;45;Andrés Peña;Telecomunicaciones;3003334455;2026-02-27;3,4
+Camila Rojas;1009;camila@mail.com;UniDigital;Bogotá;Redes;50;Laura Díaz;Ciencias de la Computación;3002223344;2026-01-06;4,3
+Camila Rojas;1009;camila@mail.com;UniTech;Medellín;Programación I;60;Andrés Peña;Telecomunicaciones;3003334455;2026-01-29;4,5
+Luis Gómez;1002;luis@mail.com;UniDigital;Bogotá;Programación I;60;Mónica Silva;Bases de Datos;3004445566;2026-02-16;3,9
+Daniel Castro;1010;daniel@mail.com;UniDigital;Bogotá;Sistemas Operativos;55;Andrés Peña;Telecomunicaciones;3003334455;2026-01-23;4
+Carlos Pérez;1004;carlos@mail.com;UniTech;Medellín;Programación I;60;Mónica Silva;Bases de Datos;3004445566;2026-02-13;3,9
+Andrés Molina;1008;andres@mail.com;UniDigital;Bogotá;Sistemas Operativos;55;Laura Díaz;Ciencias de la Computación;3002223344;2026-01-04;4,8
+Luis Gómez;1002;luis@mail.com;UniDigital;Bogotá;Redes;50;Andrés Peña;Telecomunicaciones;3003334455;2026-01-02;4,6
+Juan Herrera;1006;juan@mail.com;Instituto Central;Cali;Estructuras de Datos;45;Carlos Ruiz;Ingeniería de Software;3001112233;2026-02-15;4,7
+Ana Torres;1001;ana@mail.com;UniTech;Medellín;Programación I;60;Laura Díaz;Ciencias de la Computación;3002223344;2026-03-02;3,2
+María López;1003;maria@mail.com;UniTech;Medellín;Bases de Datos;40;Mónica Silva;Bases de Datos;3004445566;2026-01-05;3,6
+Andrés Molina;1008;andres@mail.com;UniTech;Medellín;Estructuras de Datos;45;Laura Díaz;Ciencias de la Computación;3002223344;2026-01-01;4,2
+Valentina Cruz;1007;valentina@mail.com;Instituto Central;Cali;Sistemas Operativos;55;Laura Díaz;Ciencias de la Computación;3002223344;2026-01-03;3,9
+Camila Rojas;1009;camila@mail.com;UniDigital;Bogotá;Programación I;60;Mónica Silva;Bases de Datos;3004445566;2026-02-13;3,4
+Juan Herrera;1006;juan@mail.com;Instituto Central;Cali;Programación I;60;Mónica Silva;Bases de Datos;3004445566;2026-01-15;3,1
+Sofía Ramírez;1005;sofia@mail.com;Instituto Central;Cali;Redes;50;Carlos Ruiz;Ingeniería de Software;3001112233;2026-01-07;3,4
+Daniel Castro;1010;daniel@mail.com;Instituto Central;Cali;Redes;50;Carlos Ruiz;Ingeniería de Software;3001112233;2026-01-29;4,9
+Sofía Ramírez;1005;sofia@mail.com;UniTech;Medellín;Redes;50;Laura Díaz;Ciencias de la Computación;3002223344;2026-01-11;4
+María López;1003;maria@mail.com;UniTech;Medellín;Programación I;60;Mónica Silva;Bases de Datos;3004445566;2026-01-24;4,2
+Sofía Ramírez;1005;sofia@mail.com;Instituto Central;Cali;Estructuras de Datos;45;Mónica Silva;Bases de Datos;3004445566;2026-02-23;3
+Sofía Ramírez;1005;sofia@mail.com;UniTech;Medellín;Estructuras de Datos;45;Laura Díaz;Ciencias de la Computación;3002223344;2026-01-22;4,7
+Valentina Cruz;1007;valentina@mail.com;Instituto Central;Cali;Redes;50;Carlos Ruiz;Ingeniería de Software;3001112233;2026-02-05;3,7
+Daniel Castro;1010;daniel@mail.com;UniDigital;Bogotá;Programación I;60;Carlos Ruiz;Ingeniería de Software;3001112233;2026-01-10;3,6
+Valentina Cruz;1007;valentina@mail.com;UniTech;Medellín;Programación I;60;Andrés Peña;Telecomunicaciones;3003334455;2026-02-01;4,8
+Sofía Ramírez;1005;sofia@mail.com;UniTech;Medellín;Sistemas Operativos;55;Carlos Ruiz;Ingeniería de Software;3001112233;2026-02-02;4,7
+Andrés Molina;1008;andres@mail.com;UniDigital;Bogotá;Sistemas Operativos;55;Andrés Peña;Telecomunicaciones;3003334455;2026-01-19;4,2
+Luis Gómez;1002;luis@mail.com;UniTech;Medellín;Sistemas Operativos;55;Carlos Ruiz;Ingeniería de Software;3001112233;2026-02-16;3,9
+Juan Herrera;1006;juan@mail.com;UniDigital;Bogotá;Sistemas Operativos;55;Carlos Ruiz;Ingeniería de Software;3001112233;2026-02-20;4,4
+María López;1003;maria@mail.com;Instituto Central;Cali;Sistemas Operativos;55;Andrés Peña;Telecomunicaciones;3003334455;2026-03-02;3,9
+Camila Rojas;1009;camila@mail.com;UniDigital;Bogotá;Bases de Datos;40;Laura Díaz;Ciencias de la Computación;3002223344;2026-02-13;4,7
+Ana Torres;1001;ana@mail.com;UniTech;Medellín;Redes;50;Mónica Silva;Bases de Datos;3004445566;2026-02-06;4,4
+Sofía Ramírez;1005;sofia@mail.com;Instituto Central;Cali;Sistemas Operativos;55;Carlos Ruiz;Ingeniería de Software;3001112233;2026-01-08;4
+Valentina Cruz;1007;valentina@mail.com;UniDigital;Bogotá;Sistemas Operativos;55;Mónica Silva;Bases de Datos;3004445566;2026-02-14;4,7
+Camila Rojas;1009;camila@mail.com;Instituto Central;Cali;Sistemas Operativos;55;Mónica Silva;Bases de Datos;3004445566;2026-01-03;4,9
+María López;1003;maria@mail.com;UniTech;Medellín;Bases de Datos;40;Mónica Silva;Bases de Datos;3004445566;2026-02-13;3,1
+Camila Rojas;1009;camila@mail.com;Instituto Central;Cali;Redes;50;Carlos Ruiz;Ingeniería de Software;3001112233;2026-01-18;4
+Sofía Ramírez;1005;sofia@mail.com;UniTech;Medellín;Sistemas Operativos;55;Carlos Ruiz;Ingeniería de Software;3001112233;2026-02-24;4,3
+Luis Gómez;1002;luis@mail.com;UniTech;Medellín;Bases de Datos;40;Andrés Peña;Telecomunicaciones;3003334455;2026-02-24;4,9
+Camila Rojas;1009;camila@mail.com;UniDigital;Bogotá;Estructuras de Datos;45;Carlos Ruiz;Ingeniería de Software;3001112233;2026-01-06;3,2
+Juan Herrera;1006;juan@mail.com;Instituto Central;Cali;Bases de Datos;40;Andrés Peña;Telecomunicaciones;3003334455;2026-01-24;5
+Valentina Cruz;1007;valentina@mail.com;Instituto Central;Cali;Programación I;60;Mónica Silva;Bases de Datos;3004445566;2026-01-06;3,4
+Daniel Castro;1010;daniel@mail.com;Instituto Central;Cali;Estructuras de Datos;45;Carlos Ruiz;Ingeniería de Software;3001112233;2026-02-19;4,8

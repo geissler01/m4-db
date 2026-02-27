@@ -1,0 +1,23 @@
+1. Aprender  PostgreSQL, usar pgAdmin
+	UID para identificar a los deportistas
+
+2. Node.js como puente
+- Entender entorno
+- Aprender Express.js: librería estándar para crear APIs.
+- Usar un Driver de BD: pg(node-Postgres).
+
+3. Procesamiento de archivos FIT
+- investigar fit-file-parser
+- Decidir lo que voy a guardar
+
+4. n8n.
+- conectar Postgres con n8n, mediante un Trigger
+- Reportes:
+
+
+postgres
+cache0128
+
+"C:\Program Files\PostgreSQL\18\pgAdmin 4\runtime\psql.exe"
+"C:\Program Files\PostgreSQL\18\bin\psql.exe"
+
