@@ -1,0 +1,9 @@
+const express = require('express');
+const router = express.Router();
+const salesController = require('../controllers/salesController');
+
+// Definimos los endpoints
+router.get('/', salesController.getAllSales); // GET /api/sales
+router.post('/', salesController.createSale); // POST /api/sales
+
+module.exports = router;

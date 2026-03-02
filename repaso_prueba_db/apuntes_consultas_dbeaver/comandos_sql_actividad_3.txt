@@ -1,0 +1,123 @@
+/* 9. Listar los nombres de los usuarios de una ciudad específica (ej: Monterrey) que tengan al menos un pedido registrado. */
+SELECT u.name, u.city,  COUNT(*) AS total_orders
+FROM users u
+INNER JOIN orders o ON o.user_id = u.id
+WHERE u.city =  'A Rocha'
+GROUP BY u.name;
+
+/* 10. Calcular el valor promedio de los pedidos realizados por cada usuario. */
+SELECT u.name, COUNT(*) total_orders, AVG(o.total) AS promedio_gastos
+FROM users u 
+INNER JOIN orders o ON o.user_id = u.id
+GROUP BY u.name
+ORDER BY promedio_gastos DESC;
+
+
+-- Nivel 2: Consultas Intermedias (3 Tablas)
+/* 11. Generar un recibo detallado que muestre: Código de orden, Fecha, Nombre del producto comprado, Precio al que se vendio */
+SELECT o.order_number, o.order_date, p.name, p.sale_price
+FROM order_product op
+INNER JOIN products p ON p.id = op.product_id 
+INNER JOIN orders o ON o.id = op.id;
+
+/* 12. Calcular el ingreso total generado por cada categoría de productos. */
+SELECT sum(op.price_at_purchase) AS total_sale_category, c.name AS category
+FROM order_product op 
+INNER JOIN products p ON p.id = op.product_id
+INNER JOIN categories c ON c.id = p.category_id
+GROUP BY c.name;
+
+/* 13. Listar los nombres únicos de todos los productos que ha comprado un cliente específico (buscar por nombre del cliente). */
+SELECT DISTINCT p.name AS producto, u.name AS usuario
+FROM users u
+INNER JOIN orders o ON u.id = o.user_id
+INNER JOIN order_product op ON op.order_id = o.id
+INNER JOIN products p ON p.id = op.product_id
+WHERE u.name = 'Jorge'
+
+/* 14. Identificar los 5 productos más vendidos históricamente (basado en la cantidad total de unidades). */
+SELECT p.name AS name_product, SUM(op.quantity) AS sales_total
+FROM order_product op
+INNER JOIN products p ON p.id = op.product_id
+INNER JOIN orders o ON op.order_id = o.id
+WHERE o.status IN ('paid', 'shipped')
+GROUP BY p.id, p.name
+ORDER BY sales_total DESC
+LIMIT 5;
+
+/* 15. Obtener la fecha de la última vez que se vendió cada producto, mostrando el nombre del producto y la fecha. */
+SELECT p.id, p.name AS name_product, MAX(o.created_at) AS sale_last_date
+FROM order_product op
+INNER JOIN products p ON op.product_id = p.id
+INNER JOIN orders o ON op.order_id = o.id
+WHERE o.status IN ('paid', 'shipped')
+GROUP BY p.id, p.name
+ORDER BY sale_last_date DESC
+
+/* 16. Listar los nombres de los usuarios que han comprado al menos un producto que contenga la palabra Gamer en su nombre. */
+SELECT 
+u.name AS name_user,
+p.name AS name_product,
+op.quantity AS product_quantity
+FROM order_product op
+JOIN orders o ON op.order_id = o.id
+JOIN users u ON o.user_id = u.id
+JOIN products p ON p.id = op.product_id
+WHERE p.name LIKE '%Gamer%'
+
+SELECT u.name
+FROM users u
+WHERE EXISTS (
+    SELECT 1
+    FROM orders o
+    JOIN order_product op ON op.order_id = o.id
+    JOIN products p ON p.id = op.product_id
+    WHERE o.user_id = u.id
+    AND p.name LIKE '%Gamer%'
+);
+
+/* 17. Calcular los ingresos totales de la tienda agrupados por día. */
+SELECT 
+SUM(total) AS income_daily, DATE(order_date) AS day
+FROM orders
+GROUP BY day
+ORDER BY day;
+
+/* 18. Identificar las categorías que tienen productos registrados pero que nunca han generado una venta. */
+SELECT DISTINCT c.name, c.id
+FROM categories c
+INNER JOIN products p ON p.category_id = c.id
+LEFT JOIN order_product op ON op.product_id = p.id
+WHERE op.product_id IS NULL
+
+SELECT c.id, c.name
+FROM categories c
+WHERE EXISTS (
+    SELECT 1
+    FROM products p
+    WHERE p.category_id = c.id
+)
+AND NOT EXISTS (
+    SELECT 1
+    FROM products p
+    INNER JOIN order_product op ON op.product_id = p.id
+    WHERE p.category_id = c.id
+);
+
+/* 19. Mostrar el ticket promedio de compra (gasto promedio por orden) de cada usuario. */
+SELECT
+u.id,
+u.name AS user_name,
+AVG(o.total) AS avg_order_user
+FROM users u
+JOIN orders o ON o.user_id = u.id
+WHERE o.status IN ('paid', 'shipped')
+GROUP BY u.id, u.name
+
+/* 20. Listar los nombres de los productos que formaban parte de órdenes que terminaron siendo canceladas. */
+SELECT 
+DISTINCT p.name, o.status
+FROM products p
+JOIN order_product op ON p.id = op.product_id 
+JOIN orders o ON o.id = op.order_id 
+WHERE o.status = 'cancelled'

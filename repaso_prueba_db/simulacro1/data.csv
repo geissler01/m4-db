@@ -1,0 +1,51 @@
+TransactionID,TransactionDate,CompanyName,CompanyTaxID,EmployeeName,EmployeeEmail,ClientName,ClientEmail,ContractID,ServiceName,ServiceCategory,ServicePrice,ServiceQuantity,InvoiceNumber
+T001,2025-04-10,CloudWorks SA,901222005,Sofía Herrera,sofia.herrera@corp.com,Servicios Épsilon,gerencia@epsilon.com,C006,Data Analytics Consulting,Consulting,6000,5,INV1009
+T002,2025-04-06,CloudWorks SA,901222005,Laura Gómez,laura.gomez@corp.com,Logística Gamma,ventas@gamma.com,C014,Technical Support,Support,1500,3,INV1018
+T003,2025-04-16,CloudWorks SA,901222005,Miguel Torres,miguel.torres@corp.com,Retail Delta,admin@delta.com,C008,Technical Support,Support,1500,5,INV1030
+T004,2025-06-20,CloudWorks SA,901222005,Miguel Torres,miguel.torres@corp.com,Servicios Épsilon,gerencia@epsilon.com,C005,Technical Support,Support,1500,5,INV1080
+T005,2025-04-20,CloudWorks SA,901222005,Laura Gómez,laura.gomez@corp.com,Retail Delta,admin@delta.com,C009,Data Analytics Consulting,Consulting,6000,5,INV1096
+T006,2025-06-24,TechNova Ltd,900123001,Sofía Herrera,sofia.herrera@corp.com,Servicios Épsilon,gerencia@epsilon.com,C004,Cloud Migration,Infrastructure,8000,5,INV1100
+T007,2025-04-10,InnovaCorp SAS,900456002,Andrés Ruiz,andres.ruiz@corp.com,Logística Gamma,ventas@gamma.com,C002,Cloud Migration,Infrastructure,8000,2,INV1008
+T008,2025-05-26,DataSphere Inc,901111004,Miguel Torres,miguel.torres@corp.com,Servicios Épsilon,gerencia@epsilon.com,C001,ERP Implementation,Technology,5000,3,INV1047
+T009,2025-03-08,GlobalSoft Group,900789003,Laura Gómez,laura.gomez@corp.com,Grupo Beta,info@beta.com,C007,Technical Support,Support,1500,2,INV1065
+T010,2025-02-07,InnovaCorp SAS,900456002,Laura Gómez,laura.gomez@corp.com,Servicios Épsilon,gerencia@epsilon.com,C001,Data Analytics Consulting,Consulting,6000,3,INV1079
+T011,2025-06-30,DataSphere Inc,901111004,Andrés Ruiz,andres.ruiz@corp.com,Servicios Épsilon,gerencia@epsilon.com,C001,Technical Support,Support,1500,3,INV1074
+T012,2025-03-27,GlobalSoft Group,900789003,Sofía Herrera,sofia.herrera@corp.com,Logística Gamma,ventas@gamma.com,C008,Cloud Migration,Infrastructure,8000,1,INV1008
+T013,2025-05-04,DataSphere Inc,901111004,Sofía Herrera,sofia.herrera@corp.com,Retail Delta,admin@delta.com,C005,Cloud Migration,Infrastructure,8000,5,INV1018
+T014,2025-03-22,CloudWorks SA,901222005,Andrés Ruiz,andres.ruiz@corp.com,Retail Delta,admin@delta.com,C013,Cloud Migration,Infrastructure,8000,5,INV1050
+T015,2025-04-13,TechNova Ltd,900123001,Andrés Ruiz,andres.ruiz@corp.com,Retail Delta,admin@delta.com,C006,ERP Implementation,Technology,5000,1,INV1059
+T016,2025-04-24,GlobalSoft Group,900789003,Laura Gómez,laura.gomez@corp.com,Constructora Alfa,contacto@alfa.com,C010,Cybersecurity Audit,Security,3000,4,INV1044
+T017,2025-01-13,TechNova Ltd,900123001,Miguel Torres,miguel.torres@corp.com,Servicios Épsilon,gerencia@epsilon.com,C010,Cybersecurity Audit,Security,3000,5,INV1053
+T018,2025-04-16,DataSphere Inc,901111004,Andrés Ruiz,andres.ruiz@corp.com,Servicios Épsilon,gerencia@epsilon.com,C003,Technical Support,Support,1500,1,INV1040
+T019,2025-02-24,TechNova Ltd,900123001,Miguel Torres,miguel.torres@corp.com,Logística Gamma,ventas@gamma.com,C003,Cybersecurity Audit,Security,3000,5,INV1076
+T020,2025-02-14,InnovaCorp SAS,900456002,Sofía Herrera,sofia.herrera@corp.com,Constructora Alfa,contacto@alfa.com,C013,Cloud Migration,Infrastructure,8000,3,INV1002
+T021,2025-06-26,TechNova Ltd,900123001,Carlos Méndez,carlos.mendez@corp.com,Servicios Épsilon,gerencia@epsilon.com,C011,ERP Implementation,Technology,5000,2,INV1027
+T022,2025-04-27,GlobalSoft Group,900789003,Miguel Torres,miguel.torres@corp.com,Constructora Alfa,contacto@alfa.com,C004,ERP Implementation,Technology,5000,4,INV1039
+T023,2025-04-16,CloudWorks SA,901222005,Andrés Ruiz,andres.ruiz@corp.com,Servicios Épsilon,gerencia@epsilon.com,C008,Technical Support,Support,1500,2,INV1088
+T024,2025-03-13,GlobalSoft Group,900789003,Laura Gómez,laura.gomez@corp.com,Constructora Alfa,contacto@alfa.com,C006,Cloud Migration,Infrastructure,8000,2,INV1049
+T025,2025-02-26,TechNova Ltd,900123001,Sofía Herrera,sofia.herrera@corp.com,Retail Delta,admin@delta.com,C005,Technical Support,Support,1500,4,INV1007
+T026,2025-03-29,DataSphere Inc,901111004,Laura Gómez,laura.gomez@corp.com,Logística Gamma,ventas@gamma.com,C011,ERP Implementation,Technology,5000,1,INV1018
+T027,2025-06-02,TechNova Ltd,900123001,Miguel Torres,miguel.torres@corp.com,Logística Gamma,ventas@gamma.com,C010,Cloud Migration,Infrastructure,8000,5,INV1020
+T028,2025-03-15,TechNova Ltd,900123001,Andrés Ruiz,andres.ruiz@corp.com,Servicios Épsilon,gerencia@epsilon.com,C014,ERP Implementation,Technology,5000,4,INV1002
+T029,2025-01-02,TechNova Ltd,900123001,Andrés Ruiz,andres.ruiz@corp.com,Grupo Beta,info@beta.com,C003,Cloud Migration,Infrastructure,8000,3,INV1049
+T030,2025-02-21,GlobalSoft Group,900789003,Andrés Ruiz,andres.ruiz@corp.com,Grupo Beta,info@beta.com,C005,ERP Implementation,Technology,5000,5,INV1037
+T031,2025-02-04,CloudWorks SA,901222005,Sofía Herrera,sofia.herrera@corp.com,Logística Gamma,ventas@gamma.com,C008,Data Analytics Consulting,Consulting,6000,2,INV1025
+T032,2025-04-23,CloudWorks SA,901222005,Andrés Ruiz,andres.ruiz@corp.com,Constructora Alfa,contacto@alfa.com,C008,Cybersecurity Audit,Security,3000,1,INV1024
+T033,2025-04-24,GlobalSoft Group,900789003,Andrés Ruiz,andres.ruiz@corp.com,Servicios Épsilon,gerencia@epsilon.com,C012,ERP Implementation,Technology,5000,4,INV1074
+T034,2025-06-23,TechNova Ltd,900123001,Carlos Méndez,carlos.mendez@corp.com,Constructora Alfa,contacto@alfa.com,C001,Cybersecurity Audit,Security,3000,5,INV1066
+T035,2025-01-19,DataSphere Inc,901111004,Laura Gómez,laura.gomez@corp.com,Retail Delta,admin@delta.com,C013,Technical Support,Support,1500,1,INV1033
+T036,2025-03-20,InnovaCorp SAS,900456002,Laura Gómez,laura.gomez@corp.com,Retail Delta,admin@delta.com,C014,Cloud Migration,Infrastructure,8000,3,INV1014
+T037,2025-06-09,DataSphere Inc,901111004,Carlos Méndez,carlos.mendez@corp.com,Grupo Beta,info@beta.com,C009,Cybersecurity Audit,Security,3000,1,INV1040
+T038,2025-04-30,DataSphere Inc,901111004,Laura Gómez,laura.gomez@corp.com,Logística Gamma,ventas@gamma.com,C012,ERP Implementation,Technology,5000,1,INV1001
+T039,2025-02-09,TechNova Ltd,900123001,Andrés Ruiz,andres.ruiz@corp.com,Retail Delta,admin@delta.com,C008,Technical Support,Support,1500,2,INV1046
+T040,2025-03-18,TechNova Ltd,900123001,Carlos Méndez,carlos.mendez@corp.com,Retail Delta,admin@delta.com,C011,Data Analytics Consulting,Consulting,6000,2,INV1028
+T041,2025-06-08,DataSphere Inc,901111004,Andrés Ruiz,andres.ruiz@corp.com,Logística Gamma,ventas@gamma.com,C015,Cloud Migration,Infrastructure,8000,1,INV1082
+T042,2025-01-17,CloudWorks SA,901222005,Miguel Torres,miguel.torres@corp.com,Logística Gamma,ventas@gamma.com,C003,Cybersecurity Audit,Security,3000,5,INV1056
+T043,2025-04-03,DataSphere Inc,901111004,Andrés Ruiz,andres.ruiz@corp.com,Retail Delta,admin@delta.com,C014,Cybersecurity Audit,Security,3000,4,INV1006
+T044,2025-01-29,GlobalSoft Group,900789003,Laura Gómez,laura.gomez@corp.com,Constructora Alfa,contacto@alfa.com,C002,Cybersecurity Audit,Security,3000,2,INV1061
+T045,2025-03-08,TechNova Ltd,900123001,Laura Gómez,laura.gomez@corp.com,Servicios Épsilon,gerencia@epsilon.com,C003,Cloud Migration,Infrastructure,8000,1,INV1091
+T046,2025-01-30,InnovaCorp SAS,900456002,Andrés Ruiz,andres.ruiz@corp.com,Logística Gamma,ventas@gamma.com,C004,Cybersecurity Audit,Security,3000,4,INV1010
+T047,2025-01-16,DataSphere Inc,901111004,Carlos Méndez,carlos.mendez@corp.com,Logística Gamma,ventas@gamma.com,C009,ERP Implementation,Technology,5000,3,INV1003
+T048,2025-02-12,InnovaCorp SAS,900456002,Miguel Torres,miguel.torres@corp.com,Retail Delta,admin@delta.com,C001,Technical Support,Support,1500,4,INV1080
+T049,2025-02-06,CloudWorks SA,901222005,Carlos Méndez,carlos.mendez@corp.com,Constructora Alfa,contacto@alfa.com,C009,Cloud Migration,Infrastructure,8000,2,INV1095
+T050,2025-03-21,CloudWorks SA,901222005,Miguel Torres,miguel.torres@corp.com,Logística Gamma,ventas@gamma.com,C002,Cloud Migration,Infrastructure,8000,1,INV1040

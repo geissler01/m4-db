@@ -1,0 +1,7 @@
+﻿ref_operacion;fecha_operacion;id_persona;persona;email;ubicacion;id_articulo;descripcion_articulo;tipo_articulo;organizacion;contacto_org;cantidad;precio_unit;valor_total_operacion
+5001;2026-04-01;21;Camila Torres;camila@email.com;Medellín;801;Portátil X15;Computo;GlobalTech;3201112233;1;3800000;3950000
+5001;2026-04-01;21;Camila Torres;camila@email.com;Medellín;802;Mouse inalámbrico;Perifericos;AccesoriosPlus;3009998877;1;150000;3950000
+5002;2026-04-02;22;Julián Herrera;julian@email.com;Bogotá;803;Monitor 24;Pantallas;DisplayPro;3012223344;2;700000;1400000
+5003;2026-04-03;23;Natalia Ríos;natalia@email.com;Cali;801;Portátil X15;Computo;GlobalTech;3201112233;1;3700000;3700000
+5004;2026-04-04;21;Camila Torres;camila@email.com;Medellín;804;Audífonos Studio;Audio;SoundGroup;3154445566;1;600000;600000
+5004;2026-04-04;21;Camila Torres;camila@email.com;Medellín;802;Mouse inalámbrico;Perifericos;AccesoriosPlus;3009998877;1;150000;600000

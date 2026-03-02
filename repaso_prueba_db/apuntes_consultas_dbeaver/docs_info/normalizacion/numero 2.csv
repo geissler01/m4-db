@@ -1,0 +1,7 @@
+﻿Estudiante_ID;Nombre_Estudiante;Correo_Estudiante;Universidad;Ciudad_Universidad;Curso_ID;Nombre_Curso;Profesor;Correo_Profesor;Semestre
+1;Ana Torres;ana@email.com;Universidad Central;Medellín;101;Bases de Datos;Carlos Pérez;carlos@uni.edu;2026-1
+1;Ana Torres;ana@email.com;Universidad Central;Medellín;102;Programación I;Laura Gómez;laura@uni.edu;2026-1
+2;Luis Martínez;luis@email.com;Universidad Central;Medellín;101;Bases de Datos;Carlos Pérez;carlos@uni.edu;2026-1
+3;Sofía Ramírez;sofia@email.com;Universidad del Norte;Barranquilla;103;Algoritmos;Miguel Castro;miguel@uni.edu;2026-1
+2;Luis Martínez;luis@email.com;Universidad Central;Medellín;103;Algoritmos;Miguel Castro;miguel@uni.edu;2026-2
+4;Daniel Rojas;daniel@email.com;Universidad del Norte;Barranquilla;101;Bases de Datos;Carlos Pérez;carlos@uni.edu;2026-2

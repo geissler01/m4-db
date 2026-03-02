@@ -1,0 +1,7 @@
+﻿Pedido_ID;Fecha_Pedido;Cliente_ID;Nombre_Cliente;Correo_Cliente;Ciudad_Cliente;Producto_ID;Nombre_Producto;Categoria_Producto;Proveedor;Telefono_Proveedor;Cantidad;Precio_Unitario;Total_Pedido
+1001;2026-02-01;1;Andrés López;andres@email.com;Medellín;501;Laptop Gamer;Computadores;TechSupplier;3001234567;1;4500000;4550000
+1001;2026-02-01;1;Andrés López;andres@email.com;Medellín;502;Mouse RGB;Accesorios;AccesCorp;3009876543;2;50000;4550000
+1002;2026-02-03;2;Laura Gómez;laura@email.com;Bogotá;503;Teclado Mecánico;Accesorios;AccesCorp;3009876543;1;250000;250000
+1003;2026-02-05;3;Carlos Ramírez;carlos@email.com;Cali;501;Laptop Gamer;Computadores;TechSupplier;3001234567;1;4400000;4400000
+1004;2026-02-06;1;Andrés López;andres@email.com;Medellín;504;Monitor 27 pulgadas;Monitores;DisplayWorld;3011112233;1;900000;900000
+1004;2026-02-06;1;Andrés López;andres@email.com;Medellín;502;Mouse RGB;Accesorios;AccesCorp;3009876543;1;50000;900000

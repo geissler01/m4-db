@@ -1,0 +1,21 @@
+{
+  "name": "conexion-sql-express-get",
+  "version": "1.0.0",
+  "description": "conexion sql-express-get-consultas",
+  "license": "ISC",
+  "author": "geissler",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm start",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mysql2": "^3.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

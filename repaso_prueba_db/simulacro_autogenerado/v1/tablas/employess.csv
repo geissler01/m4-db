@@ -1,0 +1,7 @@
+id,EmployeeName,EmployeeEmail,company_id
+1,Carlos Ruiz,carlos@technova.com,900-1
+2,Ana Lopez,ana@dataflow.com,800-2
+3,Luis Perez,luis@devsol.com,700-3
+4,Marta Gomez,marta@devsol.com,700-3
+5,Elena Sanz,elena@technova.com,900-1
+6,Pedro Picapiedra,pedro@dataflow.com,800-2

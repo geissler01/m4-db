@@ -1,0 +1,10 @@
+1. abrir visual desde la carpeta
+2. iniciar las dependencias necesarioas: npm i express, mysql2 dotenv
+- el auto actulizacion del servidor: npm install -D nodemon
+3. las carpetas: estructuramos el trabajo
+4. configuramos las credenciales en .env
+5. metemos esto "dev": "nodemon server.js" en el package.json
+6. confiramos el db.js (la conexion a la base de datos)
+7. el arreglo de consultas, el queries.js
+8. Construimos el server.js
+9. tenemos cuidado con el postam. En este caso una consulta tiene la forma http://localhost:3000/consultas/25

@@ -1,0 +1,7 @@
+﻿Estudiante_ID;Nombre_Estudiante;Correo_Estudiante;Curso_ID;Nombre_Curso;Profesor_Curso
+1;Ana Torres;ana@email.com;101;Bases de Datos;Carlos Pérez
+1;Ana Torres;ana@email.com;102;Programación I;Laura Gómez
+2;Luis Martínez;luis@email.com;101;Bases de Datos;Carlos Pérez
+3;Sofía Ramírez;sofia@email.com;103;Algoritmos;Miguel Castro
+2;Luis Martínez;luis@email.com;103;Algoritmos;Miguel Castro
+3;Sofía Ramírez;sofia@email.com;101;Bases de Datos;Carlos Pérez
