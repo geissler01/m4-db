@@ -1,0 +1,20 @@
+{
+  "name": "p3",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "geissler",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "dependencies": {
+    "csv-parse": "^6.1.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "multer": "^2.1.0",
+    "nodemon": "^3.1.14",
+    "pg": "^8.19.0"
+  }
+}
